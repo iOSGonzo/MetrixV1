@@ -15,6 +15,7 @@
 		E045DD2722861514004BB394 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E045DD2522861514004BB394 /* LaunchScreen.storyboard */; };
 		E045DD3222861514004BB394 /* MetrixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E045DD3122861514004BB394 /* MetrixTests.swift */; };
 		E045DD3D22861514004BB394 /* MetrixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E045DD3C22861514004BB394 /* MetrixUITests.swift */; };
+		E045DD4B2291B5BF004BB394 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E045DD4A2291B5BF004BB394 /* MenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E045DD3822861514004BB394 /* MetrixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetrixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E045DD3C22861514004BB394 /* MetrixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetrixUITests.swift; sourceTree = "<group>"; };
 		E045DD3E22861514004BB394 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E045DD4A2291B5BF004BB394 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				E045DD2522861514004BB394 /* LaunchScreen.storyboard */,
 				E045DD2822861514004BB394 /* Info.plist */,
 				E045DD2022861512004BB394 /* Metrix.xcdatamodeld */,
+				E045DD4A2291B5BF004BB394 /* MenuViewController.swift */,
 			);
 			path = Metrix;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				E045DD2222861512004BB394 /* Metrix.xcdatamodeld in Sources */,
 				E045DD1C22861512004BB394 /* HomeViewController.swift in Sources */,
 				E045DD1A22861512004BB394 /* AppDelegate.swift in Sources */,
+				E045DD4B2291B5BF004BB394 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
