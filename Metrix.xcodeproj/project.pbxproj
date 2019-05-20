@@ -17,6 +17,8 @@
 		E045DD3D22861514004BB394 /* MetrixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E045DD3C22861514004BB394 /* MetrixUITests.swift */; };
 		E045DD5322924959004BB394 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E045DD5222924959004BB394 /* Lato-Bold.ttf */; };
 		E045DD5522924D04004BB394 /* FeeCalculatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E045DD5422924D04004BB394 /* FeeCalculatorController.swift */; };
+		E045DD5722925842004BB394 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E045DD5622925842004BB394 /* UIView.swift */; };
+		E045DD5922925D21004BB394 /* Lato-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E045DD5822925D20004BB394 /* Lato-Heavy.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		E045DD5122924929004BB394 /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
 		E045DD5222924959004BB394 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Bold.ttf"; path = "../../../../../Downloads/FBLA-Asteroids-master/MARYLAND_DULANEY HIGH SCHOOL/Source Code/FBLA Asteroids/Assets/Fonts/Lato/Lato-Bold.ttf"; sourceTree = "<group>"; };
 		E045DD5422924D04004BB394 /* FeeCalculatorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeeCalculatorController.swift; sourceTree = "<group>"; };
+		E045DD5622925842004BB394 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		E045DD5822925D20004BB394 /* Lato-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Heavy.ttf"; path = "../../../../../Downloads/lato/Lato-Heavy.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +117,7 @@
 				E045DD2822861514004BB394 /* Info.plist */,
 				E045DD2022861512004BB394 /* Metrix.xcdatamodeld */,
 				E045DD5422924D04004BB394 /* FeeCalculatorController.swift */,
+				E045DD5622925842004BB394 /* UIView.swift */,
 			);
 			path = Metrix;
 			sourceTree = "<group>";
@@ -138,6 +143,7 @@
 		E045DD4E229248D4004BB394 /* fonts */ = {
 			isa = PBXGroup;
 			children = (
+				E045DD5822925D20004BB394 /* Lato-Heavy.ttf */,
 				E045DD5122924929004BB394 /* Lato-Black.ttf */,
 				E045DD5222924959004BB394 /* Lato-Bold.ttf */,
 			);
@@ -248,6 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E045DD5922925D21004BB394 /* Lato-Heavy.ttf in Resources */,
 				E045DD2722861514004BB394 /* LaunchScreen.storyboard in Resources */,
 				E045DD2422861514004BB394 /* Assets.xcassets in Resources */,
 				E045DD1F22861512004BB394 /* HomeViewController.storyboard in Resources */,
@@ -276,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E045DD5722925842004BB394 /* UIView.swift in Sources */,
 				E045DD2222861512004BB394 /* Metrix.xcdatamodeld in Sources */,
 				E045DD1C22861512004BB394 /* HomeViewController.swift in Sources */,
 				E045DD5522924D04004BB394 /* FeeCalculatorController.swift in Sources */,
