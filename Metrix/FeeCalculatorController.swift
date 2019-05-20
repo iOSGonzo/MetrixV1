@@ -12,8 +12,20 @@ class FeeCalculatorController: UIViewController, UIViewControllerTransitioningDe
     
     var labelNumber: String = ""
     
+    
+    //OUTLETS
+    
     @IBOutlet weak var enterAmountBtn: UIButton!
     @IBOutlet weak var navBar: UINavigationBar!
+    @IBOutlet weak var sellingForLabel: UILabel!
+    @IBOutlet weak var ebayRenevueLabel: UILabel!
+    @IBOutlet weak var stockXRenevueLabel: UILabel!
+    @IBOutlet weak var mercariRenevueLabel: UILabel!
+    @IBOutlet weak var bumpRenevueLabel: UILabel!
+    
+    
+    
+    
     
     @IBOutlet weak var numPadLabel: UILabel!
     

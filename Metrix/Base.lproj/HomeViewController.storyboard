@@ -146,7 +146,12 @@
                     </view>
                     <navigationItem key="navigationItem" title="Fee Calculator" id="kQM-PI-cqy"/>
                     <connections>
+                        <outlet property="bumpRenevueLabel" destination="OrC-Gf-vQW" id="RRZ-Tp-L7Q"/>
+                        <outlet property="ebayRenevueLabel" destination="vw1-To-NaA" id="WYi-Tn-LIE"/>
                         <outlet property="enterAmountBtn" destination="1RD-JY-EG3" id="MvZ-qE-4lz"/>
+                        <outlet property="mercariRenevueLabel" destination="161-wn-eVQ" id="VFy-UW-eXh"/>
+                        <outlet property="sellingForLabel" destination="AmN-QA-A85" id="iC1-nU-q8N"/>
+                        <outlet property="stockXRenevueLabel" destination="wwp-SZ-QsM" id="Qq4-lc-bzE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="si6-td-QMo" userLabel="First Responder" sceneMemberID="firstResponder"/>
