@@ -14,6 +14,11 @@ class FeeCalculatorController: UIViewController, UIViewControllerTransitioningDe
     @IBOutlet weak var navBar: UINavigationBar!
     
     
+    @IBAction func numPad(_ sender: UIButton) {
+        
+    }
+    
+    
     let transition = CircularTransition()
     
     

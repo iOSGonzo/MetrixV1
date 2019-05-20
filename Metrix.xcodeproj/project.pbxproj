@@ -20,7 +20,6 @@
 		E045DD5722925842004BB394 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E045DD5622925842004BB394 /* UIView.swift */; };
 		E045DD5922925D21004BB394 /* Lato-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E045DD5822925D20004BB394 /* Lato-Heavy.ttf */; };
 		E045DD5B22927928004BB394 /* CircularTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E045DD5A22927928004BB394 /* CircularTransition.swift */; };
-		E045DD5D22928D62004BB394 /* TTNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E045DD5C22928D62004BB394 /* TTNavigationBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,7 +60,6 @@
 		E045DD5622925842004BB394 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		E045DD5822925D20004BB394 /* Lato-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Heavy.ttf"; path = "../../../../../Downloads/lato/Lato-Heavy.ttf"; sourceTree = "<group>"; };
 		E045DD5A22927928004BB394 /* CircularTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularTransition.swift; sourceTree = "<group>"; };
-		E045DD5C22928D62004BB394 /* TTNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTNavigationBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,7 +121,6 @@
 				E045DD5422924D04004BB394 /* FeeCalculatorController.swift */,
 				E045DD5622925842004BB394 /* UIView.swift */,
 				E045DD5A22927928004BB394 /* CircularTransition.swift */,
-				E045DD5C22928D62004BB394 /* TTNavigationBar.swift */,
 			);
 			path = Metrix;
 			sourceTree = "<group>";
@@ -289,7 +286,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E045DD5D22928D62004BB394 /* TTNavigationBar.swift in Sources */,
 				E045DD5722925842004BB394 /* UIView.swift in Sources */,
 				E045DD5B22927928004BB394 /* CircularTransition.swift in Sources */,
 				E045DD2222861512004BB394 /* Metrix.xcdatamodeld in Sources */,
