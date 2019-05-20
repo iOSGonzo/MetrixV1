@@ -11,7 +11,6 @@ import UIKit
 class FeeCalculatorController: UIViewController, UIViewControllerTransitioningDelegate {
     
     var labelNumber: String = ""
-    var numberOnScreen: Double = 0
     
     @IBOutlet weak var enterAmountBtn: UIButton!
     @IBOutlet weak var navBar: UINavigationBar!
@@ -19,9 +18,13 @@ class FeeCalculatorController: UIViewController, UIViewControllerTransitioningDe
     @IBOutlet weak var numPadLabel: UILabel!
     
     @IBAction func numPad(_ sender: UIButton) {
-        labelNumber = numPadLabel.text! + String(sender.tag - 1)
-        numPadLabel.text = labelNumber
-        numberOnScreen = Double(numPadLabel.text!)!
+        if labelNumber.count >= 0 && labelNumber.count < 4{
+            labelNumber = numPadLabel.text! + String(sender.tag - 1)
+            numPadLabel.text = labelNumber
+        }
+        else{
+            return
+        }
     }
     
     
@@ -78,6 +81,7 @@ class FeeCalculatorController: UIViewController, UIViewControllerTransitioningDe
     
     @IBAction func donePressed(_ sender: UIButton) {
         self.dismiss(animated: true, completion: nil)
+        updateFees()
     }
     
     
@@ -87,6 +91,9 @@ class FeeCalculatorController: UIViewController, UIViewControllerTransitioningDe
         secondVC.modalPresentationStyle = .custom
     }
     
+    func updateFees(){
+        print("update fees")
+    }
     
     func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
         transition.transitionMode = .present

@@ -166,7 +166,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ozi-F2-hDl">
-                                        <rect key="frame" x="162" y="17" width="50" height="50"/>
+                                        <rect key="frame" x="147" y="9" width="80" height="60"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="Lato-Heavy" family="Lato" pointSize="25"/>
                                         <state key="normal" title="8">
@@ -177,7 +177,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hqc-4K-c71">
-                                        <rect key="frame" x="42" y="17" width="50" height="50"/>
+                                        <rect key="frame" x="27" y="9" width="80" height="60"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="Lato-Heavy" family="Lato" pointSize="25"/>
                                         <state key="normal" title="7">
@@ -188,7 +188,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="10" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Y4-LT-d3h">
-                                        <rect key="frame" x="282" y="17" width="50" height="50"/>
+                                        <rect key="frame" x="267" y="9" width="80" height="60"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="Lato-Heavy" family="Lato" pointSize="25"/>
                                         <state key="normal" title="9">
@@ -199,7 +199,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Ux-4l-N3q">
-                                        <rect key="frame" x="162" y="92" width="50" height="50"/>
+                                        <rect key="frame" x="145" y="85" width="80" height="60"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="Lato-Heavy" family="Lato" pointSize="25"/>
                                         <state key="normal" title="5">
@@ -210,7 +210,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wTh-Wc-1uI">
-                                        <rect key="frame" x="42" y="92" width="50" height="50"/>
+                                        <rect key="frame" x="25" y="85" width="80" height="60"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="Lato-Heavy" family="Lato" pointSize="25"/>
                                         <state key="normal" title="4">
@@ -221,7 +221,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Feg-lB-DVv">
-                                        <rect key="frame" x="282" y="92" width="50" height="50"/>
+                                        <rect key="frame" x="265" y="85" width="80" height="60"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="Lato-Heavy" family="Lato" pointSize="25"/>
                                         <state key="normal" title="6">
@@ -232,7 +232,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xPQ-Hb-b5n">
-                                        <rect key="frame" x="162" y="167" width="50" height="50"/>
+                                        <rect key="frame" x="145" y="161" width="80" height="60"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="Lato-Heavy" family="Lato" pointSize="25"/>
                                         <state key="normal" title="2">
@@ -242,19 +242,8 @@
                                             <action selector="numPad:" destination="Zh0-NP-AyP" eventType="touchUpInside" id="i8d-jQ-RS0"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Ih-g4-bu8">
-                                        <rect key="frame" x="162" y="242" width="50" height="50"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="Lato-Heavy" family="Lato" pointSize="25"/>
-                                        <state key="normal" title="0">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="numPad:" destination="Zh0-NP-AyP" eventType="touchUpInside" id="wbv-Zv-EPS"/>
-                                        </connections>
-                                    </button>
                                     <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xJS-kG-OTz">
-                                        <rect key="frame" x="42" y="167" width="50" height="50"/>
+                                        <rect key="frame" x="25" y="161" width="80" height="60"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="Lato-Heavy" family="Lato" pointSize="25"/>
                                         <state key="normal" title="1">
@@ -275,7 +264,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kyb-Oa-fDz">
-                                        <rect key="frame" x="282" y="167" width="50" height="50"/>
+                                        <rect key="frame" x="265" y="161" width="80" height="60"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="Lato-Heavy" family="Lato" pointSize="25"/>
                                         <state key="normal" title="3">
@@ -293,6 +282,17 @@
                                         </state>
                                         <connections>
                                             <action selector="donePressed:" destination="Zh0-NP-AyP" eventType="touchUpInside" id="Fye-Ew-Fo2"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Ih-g4-bu8">
+                                        <rect key="frame" x="145" y="237" width="80" height="60"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Lato-Heavy" family="Lato" pointSize="25"/>
+                                        <state key="normal" title="0">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="numPad:" destination="Zh0-NP-AyP" eventType="touchUpInside" id="wbv-Zv-EPS"/>
                                         </connections>
                                     </button>
                                 </subviews>
