@@ -15,7 +15,8 @@
 		E045DD2722861514004BB394 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E045DD2522861514004BB394 /* LaunchScreen.storyboard */; };
 		E045DD3222861514004BB394 /* MetrixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E045DD3122861514004BB394 /* MetrixTests.swift */; };
 		E045DD3D22861514004BB394 /* MetrixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E045DD3C22861514004BB394 /* MetrixUITests.swift */; };
-		E045DD4B2291B5BF004BB394 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E045DD4A2291B5BF004BB394 /* MenuViewController.swift */; };
+		E045DD5322924959004BB394 /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E045DD5222924959004BB394 /* Lato-Bold.ttf */; };
+		E045DD5522924D04004BB394 /* FeeCalculatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E045DD5422924D04004BB394 /* FeeCalculatorController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +51,9 @@
 		E045DD3822861514004BB394 /* MetrixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetrixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E045DD3C22861514004BB394 /* MetrixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetrixUITests.swift; sourceTree = "<group>"; };
 		E045DD3E22861514004BB394 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E045DD4A2291B5BF004BB394 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		E045DD5122924929004BB394 /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		E045DD5222924959004BB394 /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Bold.ttf"; path = "../../../../../Downloads/FBLA-Asteroids-master/MARYLAND_DULANEY HIGH SCHOOL/Source Code/FBLA Asteroids/Assets/Fonts/Lato/Lato-Bold.ttf"; sourceTree = "<group>"; };
+		E045DD5422924D04004BB394 /* FeeCalculatorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeeCalculatorController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		E045DD1822861511004BB394 /* Metrix */ = {
 			isa = PBXGroup;
 			children = (
+				E045DD4E229248D4004BB394 /* fonts */,
 				E045DD1922861512004BB394 /* AppDelegate.swift */,
 				E045DD1B22861512004BB394 /* HomeViewController.swift */,
 				E045DD1D22861512004BB394 /* HomeViewController.storyboard */,
@@ -108,7 +112,7 @@
 				E045DD2522861514004BB394 /* LaunchScreen.storyboard */,
 				E045DD2822861514004BB394 /* Info.plist */,
 				E045DD2022861512004BB394 /* Metrix.xcdatamodeld */,
-				E045DD4A2291B5BF004BB394 /* MenuViewController.swift */,
+				E045DD5422924D04004BB394 /* FeeCalculatorController.swift */,
 			);
 			path = Metrix;
 			sourceTree = "<group>";
@@ -129,6 +133,15 @@
 				E045DD3E22861514004BB394 /* Info.plist */,
 			);
 			path = MetrixUITests;
+			sourceTree = "<group>";
+		};
+		E045DD4E229248D4004BB394 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E045DD5122924929004BB394 /* Lato-Black.ttf */,
+				E045DD5222924959004BB394 /* Lato-Bold.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +251,7 @@
 				E045DD2722861514004BB394 /* LaunchScreen.storyboard in Resources */,
 				E045DD2422861514004BB394 /* Assets.xcassets in Resources */,
 				E045DD1F22861512004BB394 /* HomeViewController.storyboard in Resources */,
+				E045DD5322924959004BB394 /* Lato-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,8 +278,8 @@
 			files = (
 				E045DD2222861512004BB394 /* Metrix.xcdatamodeld in Sources */,
 				E045DD1C22861512004BB394 /* HomeViewController.swift in Sources */,
+				E045DD5522924D04004BB394 /* FeeCalculatorController.swift in Sources */,
 				E045DD1A22861512004BB394 /* AppDelegate.swift in Sources */,
-				E045DD4B2291B5BF004BB394 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
