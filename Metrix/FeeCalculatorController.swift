@@ -10,13 +10,31 @@ import UIKit
 
 class FeeCalculatorController: UIViewController, UIViewControllerTransitioningDelegate {
     
+    var labelNumber: String = ""
+    var numberOnScreen: Double = 0
+    
     @IBOutlet weak var enterAmountBtn: UIButton!
     @IBOutlet weak var navBar: UINavigationBar!
     
+    @IBOutlet weak var numPadLabel: UILabel!
     
     @IBAction func numPad(_ sender: UIButton) {
-        
+        labelNumber = numPadLabel.text! + String(sender.tag - 1)
+        numPadLabel.text = labelNumber
+        numberOnScreen = Double(numPadLabel.text!)!
     }
+    
+    
+    @IBAction func backspace(_ sender: UIButton) {
+        if labelNumber.count > 0{
+            labelNumber = String(labelNumber.dropLast())
+            numPadLabel.text = labelNumber
+        }
+        else{
+            return
+        }
+    }
+    
     
     
     let transition = CircularTransition()
