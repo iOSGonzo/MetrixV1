@@ -30,9 +30,12 @@
                                 <rect key="frame" x="20" y="17" width="335" height="520"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$$$$$$$$" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AmN-QA-A85">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AmN-QA-A85">
                                         <rect key="frame" x="186" y="31" width="108" height="28"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <accessibility key="accessibilityConfiguration">
+                                            <accessibilityTraits key="traits" staticText="YES" updatesFrequently="YES"/>
+                                        </accessibility>
                                         <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="23"/>
                                         <color key="textColor" red="0.16862745100000001" green="0.72941176470000002" blue="0.46274509800000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -150,13 +153,13 @@
                         <outlet property="ebayRenevueLabel" destination="vw1-To-NaA" id="WYi-Tn-LIE"/>
                         <outlet property="enterAmountBtn" destination="1RD-JY-EG3" id="MvZ-qE-4lz"/>
                         <outlet property="mercariRenevueLabel" destination="161-wn-eVQ" id="VFy-UW-eXh"/>
-                        <outlet property="sellingForLabel" destination="AmN-QA-A85" id="iC1-nU-q8N"/>
+                        <outlet property="sellingForLabel" destination="AmN-QA-A85" id="AG6-tU-blW"/>
                         <outlet property="stockXRenevueLabel" destination="wwp-SZ-QsM" id="Qq4-lc-bzE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="si6-td-QMo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-586.39999999999998" y="121.88905547226388"/>
+            <point key="canvasLocation" x="-575" y="116"/>
         </scene>
         <!--Enter Amount-->
         <scene sceneID="BuI-EJ-Kjc">

@@ -8,13 +8,12 @@
 
 import UIKit
 
-class FeeCalculatorController: UIViewController, UIViewControllerTransitioningDelegate {
+class FeeCalculatorController: UIViewController {
     
-    var labelNumber: String = ""
-    
+    var labelNumber: String = "$"
+    var labelNumber2: String = ""
     
     //OUTLETS
-    
     @IBOutlet weak var enterAmountBtn: UIButton!
     @IBOutlet weak var navBar: UINavigationBar!
     @IBOutlet weak var sellingForLabel: UILabel!
@@ -24,15 +23,13 @@ class FeeCalculatorController: UIViewController, UIViewControllerTransitioningDe
     @IBOutlet weak var bumpRenevueLabel: UILabel!
     
     
-    
-    
-    
     @IBOutlet weak var numPadLabel: UILabel!
     
     @IBAction func numPad(_ sender: UIButton) {
         if labelNumber.count >= 0 && labelNumber.count < 4{
             labelNumber = numPadLabel.text! + String(sender.tag - 1)
             numPadLabel.text = labelNumber
+            //print(sellingForLabel.text)
         }
         else{
             return
@@ -51,17 +48,12 @@ class FeeCalculatorController: UIViewController, UIViewControllerTransitioningDe
     }
     
     
-    
-    let transition = CircularTransition()
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         //remove thin line on nav bar
         navBar?.setBackgroundImage(UIImage(), for: .default)
         navBar?.shadowImage = UIImage()
-        
         self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
         self.navigationController?.navigationBar.shadowImage = UIImage()
         
@@ -71,7 +63,6 @@ class FeeCalculatorController: UIViewController, UIViewControllerTransitioningDe
         self.tabBarController?.tabBar.shadowImage = UIImage()
         self.tabBarController?.tabBar.backgroundImage = UIImage()
         
-
         
     }
     
@@ -85,6 +76,10 @@ class FeeCalculatorController: UIViewController, UIViewControllerTransitioningDe
         return .lightContent
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        print("VIEW APPEARED")
+    }
+    
     
     //dismiss animations
     @IBAction func dismissPressed(_ sender: UIBarButtonItem) {
@@ -92,34 +87,18 @@ class FeeCalculatorController: UIViewController, UIViewControllerTransitioningDe
     }
     
     @IBAction func donePressed(_ sender: UIButton) {
+        print(sellingForLabel?.text)
+        print("updating fees")
+        print(labelNumber)
         self.dismiss(animated: true, completion: nil)
-        updateFees()
+        //sellingForLabel.text = labelNumber
+
     }
     
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let secondVC = segue.destination as! FeeCalculatorController
-        secondVC.transitioningDelegate = self
-        secondVC.modalPresentationStyle = .custom
-    }
     
     func updateFees(){
-        print("update fees")
+        print("none")
     }
-    
-    func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
-        transition.transitionMode = .present
-        transition.startingPoint = enterAmountBtn.center
-        transition.circleColor = UIColor(rgb: 0x17171D)
-        return transition
-    }
-    
-    func animationController(forDismissed dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
-        transition.transitionMode = .dismiss
-        transition.startingPoint = enterAmountBtn.center
-        transition.circleColor = UIColor(rgb: 0x17171D)
-        return transition
-    }
-    
+        
 }
 
