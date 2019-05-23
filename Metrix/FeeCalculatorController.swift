@@ -91,6 +91,9 @@ class FeeCalculatorController: UIViewController {
         print("updating fees")
         print(labelNumber)
         self.dismiss(animated: true, completion: nil)
+        self.dismiss(animated: <#T##Bool#>) {
+            <#code#>
+        }
         //sellingForLabel.text = labelNumber
 
     }
