@@ -21,7 +21,7 @@
         <!--Enter Amount-->
         <scene sceneID="Ooc-dQ-ZZp">
             <objects>
-                <viewController id="rFI-2S-2wP" customClass="FeeCalculatorController" customModule="Metrix" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="rFI-2S-2wP" customClass="NumberPadController" customModule="Metrix" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VGo-ii-zTV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="554"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
