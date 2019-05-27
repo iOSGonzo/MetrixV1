@@ -14,16 +14,7 @@ class NumberPadPopupController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-    
-    //makes status bar light (white)
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        self.setNeedsStatusBarAppearanceUpdate()
-    }
-    override var preferredStatusBarStyle : UIStatusBarStyle {
-        return .lightContent
-    }
-    
+        
     @IBOutlet weak var numPadLabel: UILabel!
     
     var labelNumber: String = "$"
@@ -47,6 +38,9 @@ class NumberPadPopupController: UIViewController {
         if labelNumber.count > 0{
             labelNumber = String(labelNumber.dropLast())
             numPadLabel.text = labelNumber
+            labelNumber2 = "$" + labelNumber
+            labelNumberDouble = Double(labelNumber)!
+            calculateFees()
         }
         else{
             return

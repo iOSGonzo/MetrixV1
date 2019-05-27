@@ -39,14 +39,6 @@ class FeeCalculatorController: UIViewController {
         self.navigationController?.navigationBar.shadowImage = UIImage()
     }
     
-    //makes status bar light (white)
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        self.setNeedsStatusBarAppearanceUpdate()
-    }
-    override var preferredStatusBarStyle : UIStatusBarStyle {
-        return .lightContent
-    }
     
 }
 
