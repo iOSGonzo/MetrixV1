@@ -11,6 +11,19 @@ import UIKit
 
 class NumberPadPopupController: UIViewController {
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
+    //makes status bar light (white)
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.setNeedsStatusBarAppearanceUpdate()
+    }
+    override var preferredStatusBarStyle : UIStatusBarStyle {
+        return .lightContent
+    }
+    
     @IBOutlet weak var numPadLabel: UILabel!
     
     var labelNumber: String = "$"
@@ -34,6 +47,7 @@ class NumberPadPopupController: UIViewController {
             //print(sellingForLabel.text)
             print("updating fees")
             print(labelNumber)
+            labelNumber2 = "$" + labelNumber
             //            sellingForLabel.text = labelNumber
         }
         else{
@@ -45,5 +59,10 @@ class NumberPadPopupController: UIViewController {
         NotificationCenter.default.post(name: NSNotification.Name.savePriceEntered, object: self)
         self.dismiss(animated: true, completion: nil)
     }
+    
+    @IBAction func cancelPressed(_ sender: UIBarButtonItem) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
 
 }

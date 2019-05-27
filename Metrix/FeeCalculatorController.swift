@@ -22,22 +22,21 @@ class FeeCalculatorController: UIViewController {
         super.viewDidLoad()
         
         //listen to notifications
-//        NotificationCenter.default.addObserver(self, selector: #selector(handlePopupClosing), name: .savePriceEntered, object: nil)
         NotificationCenter.default.addObserver(forName: .savePriceEntered, object: nil, queue: OperationQueue.main) { (notification) in
             let numpadVC = notification.object as! NumberPadPopupController
-            self.sellingForLabel.text = numpadVC.labelNumber
+            self.sellingForLabel.text = numpadVC.labelNumber2
         }
-        //remove thin line on tab bar
+        
+        //remove thin border on tab bar
         self.tabBarController?.tabBar.shadowImage = UIImage()
         self.tabBarController?.tabBar.backgroundImage = UIImage()
-//        let sb = UIStoryboard(name: "HomeViewController", bundle: nil)
-//        let popup = sb.instantiateInitialViewController()! as! NumberPadPopupController
-//        popup.delegate = self
-//        self.present(popup, animated: true)
+        
+        //remove thin border on nav bar
+        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
+        self.navigationController?.navigationBar.shadowImage = UIImage()
     }
     
     //makes status bar light (white)
-    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         self.setNeedsStatusBarAppearanceUpdate()
