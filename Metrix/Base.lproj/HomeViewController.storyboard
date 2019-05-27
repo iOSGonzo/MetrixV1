@@ -37,13 +37,13 @@
                                 <rect key="frame" x="20" y="18" width="335" height="520"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ZU-cN-rxk">
+                                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ZU-cN-rxk">
                                         <rect key="frame" x="186" y="31" width="108" height="28"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <accessibility key="accessibilityConfiguration">
                                             <accessibilityTraits key="traits" staticText="YES" updatesFrequently="YES"/>
                                         </accessibility>
-                                        <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="23"/>
+                                        <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="25"/>
                                         <color key="textColor" red="0.16862745100000001" green="0.72941176470000002" blue="0.46274509800000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -156,7 +156,11 @@
                     </view>
                     <navigationItem key="navigationItem" title="Fee Calculator" id="kQM-PI-cqy"/>
                     <connections>
+                        <outlet property="bumpRenevueLabel" destination="ISH-Eh-YkG" id="TyM-3e-ySB"/>
+                        <outlet property="ebayRenevueLabel" destination="y1y-7Y-TX4" id="qP8-zT-Ruy"/>
+                        <outlet property="mercariRenevueLabel" destination="ADZ-g9-2j9" id="JXi-sC-OZZ"/>
                         <outlet property="sellingForLabel" destination="8ZU-cN-rxk" id="Uhm-f8-gVh"/>
+                        <outlet property="stockXRenevueLabel" destination="0Y7-q4-06w" id="h6O-2L-H7C"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="si6-td-QMo" userLabel="First Responder" sceneMemberID="firstResponder"/>

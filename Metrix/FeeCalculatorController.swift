@@ -11,12 +11,11 @@ import UIKit
 class FeeCalculatorController: UIViewController {
     
     //OUTLETS
-//    @IBOutlet weak var enterAmountBtn: UIButton!
     @IBOutlet weak var sellingForLabel: UILabel!
-//    @IBOutlet weak var ebayRenevueLabel: UILabel!
-//    @IBOutlet weak var stockXRenevueLabel: UILabel!
-//    @IBOutlet weak var mercariRenevueLabel: UILabel!
-//    @IBOutlet weak var bumpRenevueLabel: UILabel!
+    @IBOutlet weak var ebayRenevueLabel: UILabel!
+    @IBOutlet weak var stockXRenevueLabel: UILabel!
+    @IBOutlet weak var mercariRenevueLabel: UILabel!
+    @IBOutlet weak var bumpRenevueLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,6 +24,10 @@ class FeeCalculatorController: UIViewController {
         NotificationCenter.default.addObserver(forName: .savePriceEntered, object: nil, queue: OperationQueue.main) { (notification) in
             let numpadVC = notification.object as! NumberPadPopupController
             self.sellingForLabel.text = numpadVC.labelNumber2
+            self.ebayRenevueLabel.text = numpadVC.ebayFeeString
+            self.stockXRenevueLabel.text = numpadVC.stockXFeeString
+            self.mercariRenevueLabel.text = numpadVC.mercariFeeString
+            self.bumpRenevueLabel.text = numpadVC.bumpFeeString
         }
         
         //remove thin border on tab bar
