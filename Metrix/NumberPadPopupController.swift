@@ -9,10 +9,10 @@
 import Foundation
 import UIKit
 
-class NumberPadController: UIViewController {
+class NumberPadPopupController: UIViewController {
     
-
     @IBOutlet weak var numPadLabel: UILabel!
+    
     var labelNumber: String = "$"
     var labelNumber2: String = ""
     
@@ -42,7 +42,8 @@ class NumberPadController: UIViewController {
     }
     
     @IBAction func donePressed(_ sender: UIButton) {
-        print("hi")
+        NotificationCenter.default.post(name: NSNotification.Name.savePriceEntered, object: self)
+        self.dismiss(animated: true, completion: nil)
     }
 
 }

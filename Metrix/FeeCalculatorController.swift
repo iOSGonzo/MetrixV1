@@ -21,10 +21,19 @@ class FeeCalculatorController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        //listen to notifications
+//        NotificationCenter.default.addObserver(self, selector: #selector(handlePopupClosing), name: .savePriceEntered, object: nil)
+        NotificationCenter.default.addObserver(forName: .savePriceEntered, object: nil, queue: OperationQueue.main) { (notification) in
+            let numpadVC = notification.object as! NumberPadPopupController
+            self.sellingForLabel.text = numpadVC.labelNumber
+        }
         //remove thin line on tab bar
         self.tabBarController?.tabBar.shadowImage = UIImage()
         self.tabBarController?.tabBar.backgroundImage = UIImage()
-        
+//        let sb = UIStoryboard(name: "HomeViewController", bundle: nil)
+//        let popup = sb.instantiateInitialViewController()! as! NumberPadPopupController
+//        popup.delegate = self
+//        self.present(popup, animated: true)
     }
     
     //makes status bar light (white)
@@ -37,21 +46,7 @@ class FeeCalculatorController: UIViewController {
         return .lightContent
     }
     
-    override func viewDidAppear(_ animated: Bool) {
-        print("VIEW APPEARED")
-    }
-    
-    func updateFees(){
-        print("none")
-    }
-    
-
 }
 
-extension FeeCalculatorController: NumberPadDelegate{
-    func originalFee(value: String) {
-        sellingForLabel.text = value
-    }
-}
 
 
