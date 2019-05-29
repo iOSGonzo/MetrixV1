@@ -18,6 +18,7 @@ class PortfolioViewController: UIViewController {
     @IBOutlet weak var addItemNameTextField: UITextField!
     @IBOutlet weak var addItemValueTextField: UITextField!
     
+    var tempValue: String = ""
     var itemTitles = [String]()
     var itemValues = [String]()
     
@@ -89,4 +90,22 @@ extension PortfolioViewController: UITableViewDelegate, UITableViewDataSource{
         cell.itemValueLabel.text = itemValue
         return cell
     }
+    
+    
+//    DELETING ROWS
+//    func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
+//        return true
+//    }
+//
+//    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+//        if editingStyle == .delete{
+//
+//            itemTitles.remove(at: indexPath.row)
+//            itemValues.remove(at: indexPath.row)
+//
+//            tableView.beginUpdates()
+//            tableView.deleteRows(at: [indexPath], with: .automatic)
+//            tableView.endUpdates()
+//        }
+//    }
 }
