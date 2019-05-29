@@ -10,10 +10,10 @@ import UIKit
 
 class PortfolioViewController: UIViewController {
 
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        
         
         //remove thin border on tab bar
         self.tabBarController?.tabBar.shadowImage = UIImage()
@@ -24,5 +24,9 @@ class PortfolioViewController: UIViewController {
         self.navigationController?.navigationBar.shadowImage = UIImage()
     }
 
+    //dismiss keyboard on tapped outside
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
 
 }

@@ -19,9 +19,5 @@ class addItemPopupViewController: UIViewController{
         self.dismiss(animated: true, completion: nil)
     }
     
-    
-    
-    
-    
 }
 
