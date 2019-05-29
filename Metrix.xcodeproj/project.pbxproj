@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E0440C90229E722500E1B5C8 /* AnimatedTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0440C8F229E722500E1B5C8 /* AnimatedTabBar.swift */; };
+		E0440C92229E789C00E1B5C8 /* MilestonesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0440C91229E789C00E1B5C8 /* MilestonesViewController.swift */; };
+		E0440C94229E7A5400E1B5C8 /* addMilestonePopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0440C93229E7A5400E1B5C8 /* addMilestonePopupViewController.swift */; };
 		E045DD1A22861512004BB394 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E045DD1922861512004BB394 /* AppDelegate.swift */; };
 		E045DD1C22861512004BB394 /* PortfolioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E045DD1B22861512004BB394 /* PortfolioViewController.swift */; };
 		E045DD1F22861512004BB394 /* HomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E045DD1D22861512004BB394 /* HomeViewController.storyboard */; };
@@ -48,6 +51,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E0440C8F229E722500E1B5C8 /* AnimatedTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedTabBar.swift; sourceTree = "<group>"; };
+		E0440C91229E789C00E1B5C8 /* MilestonesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilestonesViewController.swift; sourceTree = "<group>"; };
+		E0440C93229E7A5400E1B5C8 /* addMilestonePopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addMilestonePopupViewController.swift; sourceTree = "<group>"; };
 		E045DD1622861511004BB394 /* Metrix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Metrix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E045DD1922861512004BB394 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E045DD1B22861512004BB394 /* PortfolioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioViewController.swift; sourceTree = "<group>"; };
@@ -126,6 +132,7 @@
 				E045DD4E229248D4004BB394 /* fonts */,
 				E045DD1922861512004BB394 /* AppDelegate.swift */,
 				E045DD1B22861512004BB394 /* PortfolioViewController.swift */,
+				E0440C91229E789C00E1B5C8 /* MilestonesViewController.swift */,
 				E045DD1D22861512004BB394 /* HomeViewController.storyboard */,
 				E045DD2322861514004BB394 /* Assets.xcassets */,
 				E045DD2522861514004BB394 /* LaunchScreen.storyboard */,
@@ -136,6 +143,8 @@
 				E0945AD12297C3D100B8445E /* NumberPadPopupController.swift */,
 				E0945AD3229B670A00B8445E /* NotificationNameExtension.swift */,
 				E0945AD5229BC19700B8445E /* addItemPopupViewController.swift */,
+				E0440C8F229E722500E1B5C8 /* AnimatedTabBar.swift */,
+				E0440C93229E7A5400E1B5C8 /* addMilestonePopupViewController.swift */,
 			);
 			path = Metrix;
 			sourceTree = "<group>";
@@ -313,6 +322,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0440C94229E7A5400E1B5C8 /* addMilestonePopupViewController.swift in Sources */,
 				E045DD5722925842004BB394 /* UIView.swift in Sources */,
 				E0945ADC229CBF8B00B8445E /* ItemCell.swift in Sources */,
 				E045DD2222861512004BB394 /* Metrix.xcdatamodeld in Sources */,
@@ -321,6 +331,8 @@
 				E0945AD6229BC19700B8445E /* addItemPopupViewController.swift in Sources */,
 				E045DD1A22861512004BB394 /* AppDelegate.swift in Sources */,
 				E0945AD22297C3D100B8445E /* NumberPadPopupController.swift in Sources */,
+				E0440C90229E722500E1B5C8 /* AnimatedTabBar.swift in Sources */,
+				E0440C92229E789C00E1B5C8 /* MilestonesViewController.swift in Sources */,
 				E0945AD4229B670A00B8445E /* NotificationNameExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

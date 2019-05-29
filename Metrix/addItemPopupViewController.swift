@@ -19,5 +19,12 @@ class addItemPopupViewController: UIViewController{
         self.dismiss(animated: true, completion: nil)
     }
     
+    
+    //remove thin border on nav bar
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.navigationController?.navigationBar.shouldRemoveShadow(true)
+    }
 }
+
 
