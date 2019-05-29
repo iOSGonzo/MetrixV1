@@ -28,15 +28,6 @@
 		E0945ADC229CBF8B00B8445E /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0945ADB229CBF8B00B8445E /* ItemCell.swift */; };
 		E0945ADD229CBF8B00B8445E /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0945ADB229CBF8B00B8445E /* ItemCell.swift */; };
 		E0945ADE229CBF8B00B8445E /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0945ADB229CBF8B00B8445E /* ItemCell.swift */; };
-		E0945AE0229CC09D00B8445E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0945ADF229CC09D00B8445E /* Item.swift */; };
-		E0945AE1229CC09D00B8445E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0945ADF229CC09D00B8445E /* Item.swift */; };
-		E0945AE2229CC09D00B8445E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0945ADF229CC09D00B8445E /* Item.swift */; };
-		E0945AE5229CDE0900B8445E /* ItemType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0945AE4229CDE0900B8445E /* ItemType.swift */; };
-		E0945AE6229CDE0900B8445E /* ItemType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0945AE4229CDE0900B8445E /* ItemType.swift */; };
-		E0945AE7229CDE0900B8445E /* ItemType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0945AE4229CDE0900B8445E /* ItemType.swift */; };
-		E0945AE9229CE87600B8445E /* ItemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0945AE8229CE87600B8445E /* ItemsTableViewController.swift */; };
-		E0945AEA229CE87600B8445E /* ItemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0945AE8229CE87600B8445E /* ItemsTableViewController.swift */; };
-		E0945AEB229CE87600B8445E /* ItemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0945AE8229CE87600B8445E /* ItemsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,9 +72,6 @@
 		E0945AD5229BC19700B8445E /* addItemPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addItemPopupViewController.swift; sourceTree = "<group>"; };
 		E0945AD7229BC69100B8445E /* FontsFree-Net-Proxima-Nova-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "FontsFree-Net-Proxima-Nova-Bold.otf"; path = "../../../../../Downloads/FontsFree-Net-Proxima-Nova-Bold.otf"; sourceTree = "<group>"; };
 		E0945ADB229CBF8B00B8445E /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
-		E0945ADF229CC09D00B8445E /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
-		E0945AE4229CDE0900B8445E /* ItemType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemType.swift; sourceTree = "<group>"; };
-		E0945AE8229CE87600B8445E /* ItemsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,7 +126,6 @@
 				E045DD4E229248D4004BB394 /* fonts */,
 				E045DD1922861512004BB394 /* AppDelegate.swift */,
 				E045DD1B22861512004BB394 /* PortfolioViewController.swift */,
-				E0945AE8229CE87600B8445E /* ItemsTableViewController.swift */,
 				E045DD1D22861512004BB394 /* HomeViewController.storyboard */,
 				E045DD2322861514004BB394 /* Assets.xcassets */,
 				E045DD2522861514004BB394 /* LaunchScreen.storyboard */,
@@ -186,8 +173,6 @@
 			isa = PBXGroup;
 			children = (
 				E0945ADB229CBF8B00B8445E /* ItemCell.swift */,
-				E0945ADF229CC09D00B8445E /* Item.swift */,
-				E0945AE4229CDE0900B8445E /* ItemType.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -330,12 +315,9 @@
 			files = (
 				E045DD5722925842004BB394 /* UIView.swift in Sources */,
 				E0945ADC229CBF8B00B8445E /* ItemCell.swift in Sources */,
-				E0945AE9229CE87600B8445E /* ItemsTableViewController.swift in Sources */,
-				E0945AE0229CC09D00B8445E /* Item.swift in Sources */,
 				E045DD2222861512004BB394 /* Metrix.xcdatamodeld in Sources */,
 				E045DD1C22861512004BB394 /* PortfolioViewController.swift in Sources */,
 				E045DD5522924D04004BB394 /* FeeCalculatorController.swift in Sources */,
-				E0945AE5229CDE0900B8445E /* ItemType.swift in Sources */,
 				E0945AD6229BC19700B8445E /* addItemPopupViewController.swift in Sources */,
 				E045DD1A22861512004BB394 /* AppDelegate.swift in Sources */,
 				E0945AD22297C3D100B8445E /* NumberPadPopupController.swift in Sources */,
@@ -348,9 +330,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0945ADD229CBF8B00B8445E /* ItemCell.swift in Sources */,
-				E0945AE1229CC09D00B8445E /* Item.swift in Sources */,
-				E0945AEA229CE87600B8445E /* ItemsTableViewController.swift in Sources */,
-				E0945AE6229CDE0900B8445E /* ItemType.swift in Sources */,
 				E045DD3222861514004BB394 /* MetrixTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,9 +339,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0945ADE229CBF8B00B8445E /* ItemCell.swift in Sources */,
-				E0945AE2229CC09D00B8445E /* Item.swift in Sources */,
-				E0945AEB229CE87600B8445E /* ItemsTableViewController.swift in Sources */,
-				E0945AE7229CDE0900B8445E /* ItemType.swift in Sources */,
 				E045DD3D22861514004BB394 /* MetrixUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
