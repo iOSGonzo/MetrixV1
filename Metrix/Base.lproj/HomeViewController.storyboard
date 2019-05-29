@@ -451,8 +451,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="554"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$1000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bdy-OQ-yby">
-                                <rect key="frame" x="71" y="10" width="232" height="96"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bdy-OQ-yby">
+                                <rect key="frame" x="0.0" y="10" width="375" height="96"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="80"/>
                                 <color key="textColor" red="0.16862745100000001" green="0.72941176470000002" blue="0.46274509800000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -465,7 +465,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="8" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8yI-U1-Xu7">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8yI-U1-Xu7">
                                 <rect key="frame" x="295" y="129" width="64" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="ProximaNova-Bold" family="Proxima Nova" pointSize="28"/>
@@ -479,8 +479,8 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$108" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1XR-jr-W1p">
-                                <rect key="frame" x="295" y="180" width="64" height="28"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1XR-jr-W1p">
+                                <rect key="frame" x="242" y="180" width="117" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="ProximaNova-Bold" family="Proxima Nova" pointSize="28"/>
                                 <color key="textColor" red="0.16862745100000001" green="0.72941176470000002" blue="0.46274509800000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -629,8 +629,11 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="AvgValueLabel" destination="1XR-jr-W1p" id="aZR-px-bdh"/>
                         <outlet property="addItemNameTextField" destination="19v-sm-fPa" id="WSe-8d-cC0"/>
                         <outlet property="addItemValueTextField" destination="1hO-Qj-JNn" id="KYq-gF-Rhx"/>
+                        <outlet property="itemsAmountLabel" destination="8yI-U1-Xu7" id="4V9-an-GrY"/>
+                        <outlet property="portfolioValueLabel" destination="bdy-OQ-yby" id="rZz-kq-UH0"/>
                         <outlet property="tableView" destination="E5g-uN-Wqf" id="7d4-a7-zEm"/>
                     </connections>
                 </viewController>

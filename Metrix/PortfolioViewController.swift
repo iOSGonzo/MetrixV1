@@ -10,6 +10,9 @@ import UIKit
 
 class PortfolioViewController: UIViewController {
 
+    @IBOutlet weak var portfolioValueLabel: UILabel!
+    @IBOutlet weak var avgValueLabel: UILabel!
+    @IBOutlet weak var itemsAmountLabel: UILabel!
     @IBOutlet weak var tableView: UITableView!
     
     @IBOutlet weak var addItemNameTextField: UITextField!
@@ -17,6 +20,10 @@ class PortfolioViewController: UIViewController {
     
     var itemTitles = [String]()
     var itemValues = [String]()
+    
+    var totalValue: Double = 0.0
+    var avgValue: Double = 0.0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -39,6 +46,13 @@ class PortfolioViewController: UIViewController {
     }
     
     func insertNewItem(){
+        totalValue = totalValue + Double(addItemValueTextField.text!)!
+        portfolioValueLabel.text = "$" + String(Int(totalValue))
+        avgValue = totalValue/(Double(itemTitles.count+1))
+        avgValue = avgValue.roundToDecimal(2)
+        avgValueLabel.text = "$" + String(avgValue)
+        
+        itemsAmountLabel.text = String(itemTitles.count+1)
         itemTitles.append(addItemNameTextField.text!)
         itemValues.append("$" + addItemValueTextField.text!)
         
