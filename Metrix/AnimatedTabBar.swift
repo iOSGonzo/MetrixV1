@@ -45,6 +45,8 @@ class AnimatedTabBar: UITabBarController{
         self.fifthItemImageView.contentMode = .center
     }
     
+    
+    //tab bar item animation using CGAffineTransform; bounce animation
     override func tabBar(_ tabBar: UITabBar, didSelect item: UITabBarItem) {
         if item.tag == 0{
             firstItemImageView.transform = CGAffineTransform(scaleX: 0.3, y: 0.3)

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>91668160671-se15g71ov0ilksjp2m2qodiot18dk9nk.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.91668160671-se15g71ov0ilksjp2m2qodiot18dk9nk</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDfF23uDkZcd4h8IYp4Sbf2_77HwhjJgvE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>91668160671</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.GonzaloBirrueta.Metrix</string>
+	<key>PROJECT_ID</key>
+	<string>metrix-gb</string>
+	<key>STORAGE_BUCKET</key>
+	<string>metrix-gb.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:91668160671:ios:e3be216cec3dc374</string>
+	<key>DATABASE_URL</key>
+	<string>https://metrix-gb.firebaseio.com</string>
+</dict>
+</plist>

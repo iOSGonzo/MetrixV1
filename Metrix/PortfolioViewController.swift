@@ -43,7 +43,7 @@ class PortfolioViewController: UIViewController {
             return
         } else{
             insertNewItem()
-            print("new item added")
+            print("new item added!")
         }
     }
     

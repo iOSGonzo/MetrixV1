@@ -63,10 +63,12 @@ class NumberPadPopupController: UIViewController {
     @IBAction func donePressed(_ sender: UIButton) {
         NotificationCenter.default.post(name: NSNotification.Name.savePriceEntered, object: self)
         self.dismiss(animated: true, completion: nil)
+        print("successful calc")
     }
     
     @IBAction func cancelPressed(_ sender: UIBarButtonItem) {
         self.dismiss(animated: true, completion: nil)
+        print("calc cancelled")
     }
     
     func calculateFees(){
