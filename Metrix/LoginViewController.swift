@@ -39,7 +39,7 @@ class LoginViewController: UIViewController {
                 self.performSegue(withIdentifier: "goHome", sender: self)
             } else{
                 print("Incorrect email or password!")
-                //sender.shake()
+                sender.shake()
             }
         }
     }
