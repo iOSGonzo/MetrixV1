@@ -35,6 +35,7 @@
 		E0945ADC229CBF8B00B8445E /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0945ADB229CBF8B00B8445E /* ItemCell.swift */; };
 		E0945ADD229CBF8B00B8445E /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0945ADB229CBF8B00B8445E /* ItemCell.swift */; };
 		E0945ADE229CBF8B00B8445E /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0945ADB229CBF8B00B8445E /* ItemCell.swift */; };
+		E09DF98F233C0E8E00777B6B /* btnAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09DF98E233C0E8E00777B6B /* btnAnimations.swift */; };
 		E0D4F2BF2315AB3300EAFB66 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D4F2BE2315AB3300EAFB66 /* LoginViewController.swift */; };
 		F3AF0E322EA82A5CA291DD74 /* libPods-Metrix.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C1D297D9A129F868FD88E06 /* libPods-Metrix.a */; };
 /* End PBXBuildFile section */
@@ -89,6 +90,7 @@
 		E0945AD5229BC19700B8445E /* addItemPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addItemPopupViewController.swift; sourceTree = "<group>"; };
 		E0945AD7229BC69100B8445E /* FontsFree-Net-Proxima-Nova-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "FontsFree-Net-Proxima-Nova-Bold.otf"; path = "../../../../../Downloads/FontsFree-Net-Proxima-Nova-Bold.otf"; sourceTree = "<group>"; };
 		E0945ADB229CBF8B00B8445E /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		E09DF98E233C0E8E00777B6B /* btnAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = btnAnimations.swift; sourceTree = "<group>"; };
 		E0D4F2BE2315AB3300EAFB66 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -180,6 +182,7 @@
 				E0440C93229E7A5400E1B5C8 /* addMilestonePopupViewController.swift */,
 				E0D4F2BE2315AB3300EAFB66 /* LoginViewController.swift */,
 				E00DD9642317333A00B5E8B2 /* signUpViewController.swift */,
+				E09DF98E233C0E8E00777B6B /* btnAnimations.swift */,
 			);
 			path = Metrix;
 			sourceTree = "<group>";
@@ -389,6 +392,7 @@
 				E045DD5722925842004BB394 /* UIView.swift in Sources */,
 				E0945ADC229CBF8B00B8445E /* ItemCell.swift in Sources */,
 				E045DD2222861512004BB394 /* Metrix.xcdatamodeld in Sources */,
+				E09DF98F233C0E8E00777B6B /* btnAnimations.swift in Sources */,
 				E045DD1C22861512004BB394 /* PortfolioViewController.swift in Sources */,
 				E045DD5522924D04004BB394 /* FeeCalculatorController.swift in Sources */,
 				E0945AD6229BC19700B8445E /* addItemPopupViewController.swift in Sources */,
