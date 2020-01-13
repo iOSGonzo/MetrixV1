@@ -13,6 +13,8 @@ class addMilestonePopupViewController: UIViewController{
     
     let titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
     
+    let titleTextAttributesNotSelected = [NSAttributedString.Key.foregroundColor: UIColor.darkGray]
+    
     @IBOutlet weak var lengthSegmentedControl: UISegmentedControl!
     
     @IBOutlet weak var typeSegmentedControl: UISegmentedControl!
@@ -31,9 +33,9 @@ class addMilestonePopupViewController: UIViewController{
     
     
     func segmentedControlStyles(){
-        lengthSegmentedControl.setTitleTextAttributes(titleTextAttributes, for: .normal)
+        lengthSegmentedControl.setTitleTextAttributes(titleTextAttributesNotSelected, for: .normal)
         lengthSegmentedControl.setTitleTextAttributes(titleTextAttributes, for: .selected)
-        typeSegmentedControl.setTitleTextAttributes(titleTextAttributes, for: .normal)
+        typeSegmentedControl.setTitleTextAttributes(titleTextAttributesNotSelected, for: .normal)
         typeSegmentedControl.setTitleTextAttributes(titleTextAttributes, for: .selected)
         
     }
