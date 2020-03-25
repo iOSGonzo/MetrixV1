@@ -7,7 +7,8 @@ Continued on https://github.com/gonzob7/Metrix
 [![Swift Version][swift-image]][swift-url]
 ![Firebase Version][firebase-version]
 
-![](header.png)
+![Screenshots](https://i.imgur.com/k80V9ZS.png)
+
 
 ## Features
 
@@ -34,3 +35,5 @@ Gonzalo Birrueta – [LinkedIn](https://www.linkedin.com/in/gbm7/)
 [firebase-version]:https://img.shields.io/badge/firebase-5.3.1-red.svg
 [swift-image]:https://img.shields.io/badge/swift-4.0-orange.svg
 [swift-url]: https://swift.org/
+
+
