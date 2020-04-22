@@ -1,7 +1,6 @@
 # Metrix
 
-Continued on https://github.com/gonzob7/Metrix
-> iOS App designed for sneaker/streetwear enthusiasts and resellers (Will continue in March 2020)
+> iOS App designed for sneaker/streetwear enthusiasts and resellers
 
 ![iOS Version][ios-version] 
 [![Swift Version][swift-image]][swift-url]
